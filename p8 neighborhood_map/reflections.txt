@@ -1,0 +1,17 @@
+Answer the following questions:
+
+What new skills have you learned?
+
+Formatting with HTML, including the strikethrough, superscript, and subscript tags.
+
+What has been easy?
+
+So far, the HTML tags have been pretty easy. It is easy to mimic a page with simple HTML.
+
+What has been difficult?
+
+Nothing has been too difficult thus far to be honest.
+
+How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+This project was on the easier side so there really wasnt a strong need to implement any sort of strategies.
