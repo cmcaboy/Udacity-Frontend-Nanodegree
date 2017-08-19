@@ -1,0 +1,84 @@
+
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  
+
+}
+
+#list-title {
+    color: whitesmoke;
+    font-weight: normal;
+    font-size: 4vmin;
+    
+}
+
+.row-fluid, .container-fluid, body, html, .marker-nav, .map-area{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.marker-nav {
+    text-align: center;
+    background: linear-gradient(black, silver);
+}
+
+.marker-list-item {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 2.2vmin;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    
+    background-color: lightblue;
+    
+}
+
+.marker-list-item-hover {
+    background-color: cornflowerblue;
+}
+
+#marker-search-button {
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#marker-input {
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: grey;
+    width: 100%;
+    font-size: 2vmin;
+}
+
+.span9,
+.map-area {
+    margin-left: 0 !important;
+    width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+    .marker-nav, 
+    .span3 {
+        display: none;
+    }
+}

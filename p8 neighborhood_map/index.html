@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Map Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+      <div class="container-fluid">
+        <div class = "row-fluid">
+            <div class = "span3 marker-nav">
+                <h3 id = "list-title">Shawnee Ok Lunch Spots</h3>
+                <ul class="blank ul">
+                    <li class="blank li"></li>
+                    <li class="blank li"></li>
+                    <li class="blank li"></li>
+                </ul>
+                    <input id="marker-input" text="search" value=" Location" data-bind="textInput: searchInput, click: inputClick">
+                    <button id="marker-search-button">Search</button>
+                <ul class="marker-list" data-bind="foreach: markersObservable">
+                    <li data-bind="text: label, click: markerClick, event: {mouseover:markerHover, mouseout: markerHover}, style: { backgroundColor: isHover() ? '#d59563' : 'lightBlue'}, visible: isVisible" class="marker-list-item"></li>
+                </ul>
+                <ul class="blank ul">
+                    <li class="blank li"></li>
+                </ul>
+            </div>
+            <div class="span9 map-area" id = "map">
+            </div>
+        </div>
+      </div>
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/knockout-3.4.2.js"></script>
+    <script src="js/app.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlVUE0QmItEkmjVUBLhkb3ShhebQMJUdA&callback=initMap" onerror="googleMapError()">
+    </script>
+  </body>
+</html>

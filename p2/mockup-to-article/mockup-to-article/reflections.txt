@@ -1,0 +1,21 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. 
+Answer the following questions:
+  
+* What new skills have you learned?
+
+I have learned a lot about tags I was not familar with: em, strong, subscript, superscript, s, and aside. I learned a lot about using the semantic form of a tag.
+
+  
+* What has been easy?
+
+
+The HTML structure has been pretty easy thus far.
+  
+* What has been difficult?
+  
+
+Understanding the semantic nature of a tag despite no UX differences.
+
+* How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+They have not yet been needed.

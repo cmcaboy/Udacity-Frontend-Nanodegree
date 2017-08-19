@@ -1,0 +1,84 @@
+.container {
+    border-color: red;
+    max-width: 1200px;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar {
+    height: 100%;
+    border-color: aqua;
+}
+
+.main-content {
+    height: 100%;
+    padding-left: 0;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.center-image {
+
+    width: 100%;
+}
+
+.featured-work {
+
+}
+
+.featured-work-title {
+    color: #7d97ad;
+    text-align: left;
+    font-family: bellefair;
+    font-size: 220%;
+}
+
+.data-analysis-image {
+
+
+}
+
+.name {
+    text-align: right;
+    font-family: bellefair;
+    font-size: 300%;
+}
+
+.header-img {
+ padding: 0 0 0 0;
+}
+
+.featured-work-card,
+.featured-work-content {
+    height: 100%;
+    padding-left: 15px;
+}
+
+.featured-work {
+    margin-top:30px;
+}
+
+.featured-work-card-image {
+    width: 100%;
+}
+
+.featured-work-card-title {
+    text-align: center;
+    font-weight: 100;
+    font-family: bellefair;
+    font-size: 200%;
+}
+
+.horizontal-rule {
+    margin: 0 0;
+    color: red;
+    width: 100%;
+    padding: 0 0 0 0;
+    height: 4px;
+    line-height: 4px;
+}
