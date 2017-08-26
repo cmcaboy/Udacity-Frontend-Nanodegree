@@ -530,7 +530,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
   var pageHeight = screen.height;
-  var numPizzas = pageHeight / (s * cols);
+  var numPizzas = pageHeight / s * cols;
   for (var i = 0; i < numPizzas; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
